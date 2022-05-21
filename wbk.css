@@ -1,0 +1,19 @@
+.wbk{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    overflow-y: scroll;
+    
+    background-color: #4bc0c8;
+
+    line-height: 1.5;
+    border-radius: 5px;
+}
+
+.wbk::-webkit-scrollbar {
+    display: none;
+}
